@@ -1,4 +1,4 @@
-Resize your image files on Google Cloud storage with [Images Python API](https://developers.google.com/appengine/docs/python/images/) powered by Google.
+### Resize your image files on Google Cloud storage with [Images Python API](https://developers.google.com/appengine/docs/python/images/) powered by Google.
 
 ## Setup
 
@@ -19,7 +19,7 @@ pip install -r requirements.txt -t lib
 ```
 gcloud app deploy
 ```
-!! Ensure the targetted bucket and the app engine instance are in the same region
+Ensure the targetted bucket and the app engine instance are in the same region
 
 4. Grant app engine service account permission to the bucket.
 * Find your app engine service account in the `IAM & Admin` section, copy it
